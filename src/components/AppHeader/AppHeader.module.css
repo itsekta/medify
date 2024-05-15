@@ -1,0 +1,38 @@
+.appHeaderWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appHeaderLogo {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--primary-bg-color);
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.appHeaderIconWrap {
+  height: 20px;
+  width: 20px;
+  background-color: var(--primary-bg-color);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.appHeaderLinks {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  font-size: 14px;
+  color: #102851;
+}
+
+.appHeaderButton {
+  background-color: var(--primary-bg-color) !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+}
