@@ -5,7 +5,6 @@ import { useSearchParams } from "react-router-dom";
 import HospitalCard from "../../components/HospitalCard/HospitalCard";
 import icon from "../../assets/tick.png";
 import cta from "../../assets/cta.png";
-// import SearchHospital from "../components/SearchHospital/SearchHospital";
 import SearchInput from "../../components/SearchCard/SearchInput";
 import BookingModal from "../../components/BookingModal/BookingModal";
 import AutohideSnackbar from "../../components/AutohideSnackbar/AutohideSnackbar";
