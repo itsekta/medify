@@ -3,14 +3,18 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import HomePage from "./pages/Home";
+import HomePage from "./pages/Home/Home";
 import { createTheme, ThemeProvider } from "@mui/material";
-
+import Search from "./pages/Search/Search";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
+      {
+        path: "search",
+        element: <Search />,
+      },
       {
         path: "/",
         element: <HomePage />,

@@ -10,7 +10,7 @@ export default function CouponSection() {
     <Box py={6}>
       <Container maxWidth="xl">
         <Swiper
-          slidesPerView={1}
+          slidesPerView={3}
           spaceBetween={30}
           modules={[Pagination]}
           pagination={{
@@ -23,27 +23,27 @@ export default function CouponSection() {
           }}
         >
           <SwiperSlide>
-            <Box component={"img"} src={offer1} />
+            <img src={offer1} alt="offer1" />
           </SwiperSlide>
 
           <SwiperSlide>
-            <Box component={"img"} src={offer2} />
+            <img src={offer2} alt="offer2" />
           </SwiperSlide>
 
           <SwiperSlide>
-            <Box component={"img"} src={offer1} />
+            <img src={offer1} alt="offer1" />
           </SwiperSlide>
 
           <SwiperSlide>
-            <Box component={"img"} src={offer2} />
+            <img src={offer2} alt="offer2" />
           </SwiperSlide>
 
           <SwiperSlide>
-            <Box component={"img"} src={offer1} />
+            <img src={offer1} alt="offer1" />
           </SwiperSlide>
 
           <SwiperSlide>
-            <Box component={"img"} src={offer2} />
+            <img src={offer2} alt="offer2" />
           </SwiperSlide>
         </Swiper>
       </Container>
