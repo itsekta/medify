@@ -3,7 +3,13 @@ import AppHeader from "../components/AppHeader/AppHeader";
 import HeroSection from "../components/HeroSection/HeroSection";
 import SearchInput from "../components/SearchCard/SearchInput";
 import SearchCard from "../components/SearchCard/SearchCard";
-
+import CouponSection from "../components/CouponsSection/CouponSection";
+import SpecialisationSection from "../components/SpecialisationSection/SpecialisationSection";
+import DoctorSpecialists from "../components/DoctorsCarousel/DoctorSpecialists";
+import PatientCaring from "../components/PatientCaring/PatientCaring";
+import Blogs from "../components/BlogSection/Blogs";
+import CaringSection from "../components/CaringSection/CaringSection";
+import FAQSection from "../components/FAQSection/FAQSection";
 export default function HomePage() {
   return (
     <Box>
@@ -32,6 +38,13 @@ export default function HomePage() {
           </Stack>
         </Container>
       </Box>
+      <CouponSection />
+      <SpecialisationSection />
+      <DoctorSpecialists />
+      <PatientCaring />
+      <Blogs />
+      <CaringSection />
+      <FAQSection />
     </Box>
   );
 }
